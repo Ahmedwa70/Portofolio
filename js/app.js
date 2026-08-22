@@ -159,6 +159,31 @@
     return "<bdi" + (dir ? ' dir="' + dir + '"' : "") + ">" + text + "</bdi>";
   }
 
+  /**
+   * True when a string carries no direction of its own — digits, signs and
+   * punctuation only.
+   *
+   * Such a value inherits the paragraph direction, which is why "9+" renders
+   * as "+9" on the Arabic page: "+" is a bidi European Number Terminator and
+   * attaches to whichever side the base direction dictates. Values like this
+   * are the ones that need an explicit dir="ltr".
+   *
+   * Deliberately a whitelist. Any letter, in any script, falls outside it and
+   * keeps automatic direction, so "عالمي" and "ثلاث لغات" are never forced
+   * into LTR.
+   */
+  function isDirectionNeutral(text) {
+    return /^[\s\d+.,:;/()%~^×−–—-]*$/.test(String(text == null ? "" : text));
+  }
+
+  /**
+   * Isolates a value and pins it to LTR only when it has no direction of its
+   * own. Text values keep auto direction and behave exactly as before.
+   */
+  function bdiValue(value) {
+    return bdi(value, isDirectionNeutral(value) ? "ltr" : null);
+  }
+
   /* ---------------------------------------------------------------------
    * Static i18n strings (data-i18n="ui.path" in index.html)
    * ------------------------------------------------------------------- */
@@ -326,6 +351,28 @@
     });
   }
 
+  /**
+   * A highlight's displayed value.
+   *
+   * An entry carrying `valueSinceYear` is a running count, not a fixed
+   * figure: the years elapsed since that year, computed at render time from
+   * the visitor's own clock. It therefore stays correct without anyone
+   * editing the file, and works offline — no network, no build step.
+   *
+   * Counted in whole calendar years, which is how "years of experience" is
+   * normally stated; it ticks over on 1 January rather than on the exact
+   * anniversary.
+   *
+   * Everything else falls back to the ordinary translated `value`.
+   */
+  function highlightValue(entry, lang) {
+    if (entry && typeof entry.valueSinceYear === "number") {
+      var years = new Date().getFullYear() - entry.valueSinceYear;
+      return String(years > 0 ? years : 0);
+    }
+    return getLocalizedValue(entry.value, lang);
+  }
+
   function renderHighlights(lang) {
     var container = document.getElementById("highlights-grid");
     if (!container) return;
@@ -333,8 +380,12 @@
     CV_DATA.highlights.forEach(function (entry) {
       var item = document.createElement("div");
       item.className = "highlight-item reveal";
+      var value = highlightValue(entry, lang);
       item.innerHTML =
-        "<span class=\"highlight-value\">" + escapeHtml(getLocalizedValue(entry.value, lang)) + "</span>" +
+        // The value is the one field here that can be a bare number with a
+        // sign ("9+"), so it is isolated; the label and description are
+        // ordinary prose and are left exactly as they were.
+        "<span class=\"highlight-value\">" + bdiValue(value) + "</span>" +
         "<span class=\"highlight-label\">" + escapeHtml(getLocalizedValue(entry.label, lang)) + "</span>" +
         "<span class=\"highlight-desc\">" + escapeHtml(getLocalizedValue(entry.description, lang)) + "</span>";
       container.appendChild(item);

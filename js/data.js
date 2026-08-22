@@ -269,7 +269,14 @@ const CV_DATA = {
   // =======================================================================
   highlights: [
     {
-      id: "hl1", value: "9+",
+      // Counted from this year rather than written as a fixed number, so the
+      // figure stays true on its own — app.js renders (current year - this).
+      // 2016 is when the international teaching role began; see exp1.
+      //
+      // Replaced the previous "9+": the open-ended form reads as marketing on
+      // an academic profile, and its "+" was the one value on the page whose
+      // glyphs the bidi algorithm reordered in Arabic.
+      id: "hl1", valueSinceYear: 2016,
       label: {
         en: "Years of Teaching Experience", ar: "سنوات من التدريس", zh: "教学经验年限", es: "Años de Experiencia Docente",
         fr: "Années d'Expérience en Enseignement", tr: "Yıllık Öğretmenlik Deneyimi", ko: "교육 경력(년)",

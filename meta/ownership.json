@@ -163,8 +163,8 @@
     "algorithm": "sha256",
     "generated": "2026-08-22",
     "fileCount": 22,
-    "totalBytes": 581841,
-    "combined": "bcc8140b61f4d320c61f469446af12da9fca2046cf43dfd902d69a782f520d41",
+    "totalBytes": 584371,
+    "combined": "9de8307b1153c7fa7ed1113eb38788f6356aec376d7f26d8bd8b032c18fb2fa0",
     "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
     "groups": {
       "markup": [
@@ -214,13 +214,13 @@
         "group": "styles"
       },
       "js/app.js": {
-        "sha256": "cdc9116129ce45141fe4f2b94adef60acac63e4557c43994b6165200c06bebd2",
-        "bytes": 45848,
+        "sha256": "8d76f5779ef71bce711d46d9a881c373121140296590a62b73eb19a07ae8cbbb",
+        "bytes": 47918,
         "group": "scripts"
       },
       "js/data.js": {
-        "sha256": "d881e55cbfc619f75a83634abff8afd7d23fcf8fb5e5a463724ba406eaabda51",
-        "bytes": 111202,
+        "sha256": "cfa654a84e2bca9e2f4ba9e18340199abedc8657c4d93ae790acc200099d9496",
+        "bytes": 111662,
         "group": "scripts"
       },
       "js/translations.js": {
