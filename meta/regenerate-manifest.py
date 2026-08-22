@@ -19,7 +19,10 @@ GROUPS = [
                   "assets/images/favicon.svg",
                   "assets/images/profile-placeholder.svg",
                   "assets/images/wechat-qr.png"]),
-    ("fonts",    ["assets/fonts/NotoSansArabic-Regular.woff2",
+    ("fonts",    ["assets/fonts/Amiri-Regular.woff2",
+                  "assets/fonts/Amiri-Bold.woff2",
+                  "assets/fonts/OFL-Amiri.txt",
+                  "assets/fonts/NotoSansArabic-Regular.woff2",
                   "assets/fonts/NotoSansArabic-Medium.woff2",
                   "assets/fonts/NotoSansArabic-SemiBold.woff2",
                   "assets/fonts/OFL.txt"]),
@@ -91,6 +94,7 @@ manifest = {
             "Original photography, icons and vector graphics"
         ],
         "excludes": [
+            "Amiri - Copyright 2010-2022 The Amiri Project Authors, SIL OFL 1.1",
             "Noto Sans Arabic - Copyright 2022 The Noto Project Authors, SIL OFL 1.1"
         ]
     },
@@ -155,6 +159,16 @@ manifest = {
             "inlineVector": "16 stroke icons defined in js/app.js (ICONS), plus the Arabic calligraphy watermark and theme icons in index.html"
         },
         "thirdParty": [
+            {
+                "name": "Amiri",
+                "files": ["assets/fonts/Amiri-Regular.woff2",
+                          "assets/fonts/Amiri-Bold.woff2"],
+                "copyright": "Copyright 2010-2022 The Amiri Project Authors",
+                "license": "SIL Open Font License 1.1",
+                "licenseFile": "assets/fonts/OFL-Amiri.txt",
+                "upstream": "https://github.com/aliftype/amiri",
+                "role": "Arabic display face for headings"
+            },
             {
                 "name": "Noto Sans Arabic",
                 "files": ["assets/fonts/NotoSansArabic-Regular.woff2",

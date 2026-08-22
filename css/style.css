@@ -34,6 +34,42 @@
    fallback is Segoe UI, an Arabic face with similar metrics, which keeps
    the swap from shifting the layout noticeably.
    ========================================================================= */
+/* =========================================================================
+   Amiri — the Arabic display face, bundled locally.
+   -------------------------------------------------------------------------
+   Headings previously relied on 'Traditional Arabic', a Windows system font
+   that is NOT shipped with this site and cannot be: it belongs to Microsoft.
+   Anyone on macOS, Linux, Android or iOS — and anyone whose browser limits
+   font fingerprinting — fell through to 'Times New Roman', which is 29%
+   wider and shapes Arabic joins poorly. That is why the same heading sat on
+   one line locally and broke onto two once published.
+
+   Amiri is a classical Naskh close in character to Traditional Arabic, and
+   its SIL OFL licence permits redistribution, so bundling it makes the
+   headings render identically on every device instead of depending on what
+   the visitor happens to have installed.
+
+   Same unicode-range discipline as Noto below: Arabic codepoints only, so
+   Latin runs keep their own face and the eight other languages never fetch
+   these files.
+   ========================================================================= */
+@font-face{
+  font-family: 'Amiri';
+  src: url('../assets/fonts/Amiri-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face{
+  font-family: 'Amiri';
+  src: url('../assets/fonts/Amiri-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
 @font-face{
   font-family: 'Noto Sans Arabic';
   src: url('../assets/fonts/NotoSansArabic-Regular.woff2') format('woff2');
@@ -93,7 +129,10 @@
 
   /* ---- 1. Font stacks (base definitions — never self-referential) ---- */
   --font-display-latin:  Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
-  --font-display-arabic: 'Traditional Arabic', 'Scheherazade New', Amiri, 'Times New Roman', serif;
+  /* Amiri first because it is bundled — it is the only entry guaranteed to
+     exist on every device. The rest remain as fallbacks for the moment
+     before the file arrives, or if it fails to load. */
+  --font-display-arabic: 'Amiri', 'Traditional Arabic', 'Scheherazade New', 'Times New Roman', serif;
   --font-body-latin:     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-body-arabic:    'Segoe UI', 'Noto Sans Arabic', 'Dubai', 'Geeza Pro', Tahoma, Arial, sans-serif;
   --font-mono:           'Courier New', Courier, monospace;
@@ -184,7 +223,11 @@ html[lang="ar"]{
   --font-utility: var(--font-body-arabic);
 
   --type-scale: 1.06;
-  --type-scale-display: 1.18;
+  /* Recalibrated for Amiri. The old 1.18 was measured against Traditional
+     Arabic, whose letterforms are noticeably smaller and narrower; Amiri
+     sets larger at the same nominal size, so the same multiplier overshot
+     and pushed the hero title onto a third line. */
+  --type-scale-display: 1.08;
 
   --lh-display: 1.4;
   --lh-heading: 1.55;
@@ -438,7 +481,12 @@ html[lang="ar"] .brand{
 .hero-bg{ position: absolute; inset: 0; z-index: 0; pointer-events: none; }
 .hero-calligraphy{ position:absolute; top: 50%; left: 50%; width: min(900px, 90vw); transform: translate(-50%,-50%); opacity: 0.06; }
 .calligraphy-text{
-  font-family: var(--font-display-arabic); font-size: 220px;
+  /* System faces only, deliberately NOT var(--font-display-arabic): this
+     watermark sits behind the hero at 6% opacity on every language, and
+     pointing it at the bundled Amiri pulled a 108 KB download onto the eight
+     pages that have no Arabic text at all. Its exact letterforms carry no
+     meaning at this opacity. */
+  font-family: 'Traditional Arabic', 'Times New Roman', serif; font-size: 220px;
   fill: none; stroke: var(--gold); stroke-width: 1;
   stroke-dasharray: 1400; stroke-dashoffset: 1400;
   animation: draw-calligraphy 3.5s var(--ease) 0.4s forwards;

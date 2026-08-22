@@ -32,6 +32,7 @@
       "Original photography, icons and vector graphics"
     ],
     "excludes": [
+      "Amiri - Copyright 2010-2022 The Amiri Project Authors, SIL OFL 1.1",
       "Noto Sans Arabic - Copyright 2022 The Noto Project Authors, SIL OFL 1.1"
     ]
   },
@@ -145,6 +146,18 @@
     },
     "thirdParty": [
       {
+        "name": "Amiri",
+        "files": [
+          "assets/fonts/Amiri-Regular.woff2",
+          "assets/fonts/Amiri-Bold.woff2"
+        ],
+        "copyright": "Copyright 2010-2022 The Amiri Project Authors",
+        "license": "SIL Open Font License 1.1",
+        "licenseFile": "assets/fonts/OFL-Amiri.txt",
+        "upstream": "https://github.com/aliftype/amiri",
+        "role": "Arabic display face for headings"
+      },
+      {
         "name": "Noto Sans Arabic",
         "files": [
           "assets/fonts/NotoSansArabic-Regular.woff2",
@@ -162,9 +175,9 @@
   "integrity": {
     "algorithm": "sha256",
     "generated": "2026-08-22",
-    "fileCount": 22,
-    "totalBytes": 584371,
-    "combined": "9de8307b1153c7fa7ed1113eb38788f6356aec376d7f26d8bd8b032c18fb2fa0",
+    "fileCount": 25,
+    "totalBytes": 801235,
+    "combined": "05c7fa540bc430142a8991c767d264630f680b662c1aa7506d100a536c1065b8",
     "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
     "groups": {
       "markup": [
@@ -185,6 +198,9 @@
         "assets/images/wechat-qr.png"
       ],
       "fonts": [
+        "assets/fonts/Amiri-Regular.woff2",
+        "assets/fonts/Amiri-Bold.woff2",
+        "assets/fonts/OFL-Amiri.txt",
         "assets/fonts/NotoSansArabic-Regular.woff2",
         "assets/fonts/NotoSansArabic-Medium.woff2",
         "assets/fonts/NotoSansArabic-SemiBold.woff2",
@@ -204,13 +220,13 @@
     },
     "files": {
       "index.html": {
-        "sha256": "2efbbecc1b192f5fa1bdf7e5affbf0f9f61dfd58e1c29e90d75462e2db340b9e",
-        "bytes": 20051,
+        "sha256": "acdb3400c419ace06e987851b5b4e552763dfd50897393fac25c8bc87d1a5d35",
+        "bytes": 20411,
         "group": "markup"
       },
       "css/style.css": {
-        "sha256": "d3e82ae41a71b47a83b3c07e07e8caeb104eb19db507c4f5f71a8b3f435c25d2",
-        "bytes": 49788,
+        "sha256": "bda977d02946e40ea40a3e04b5014d00a4b004452285897dc981f6efcf46bf25",
+        "bytes": 52479,
         "group": "styles"
       },
       "js/app.js": {
@@ -224,8 +240,8 @@
         "group": "scripts"
       },
       "js/translations.js": {
-        "sha256": "494440419eb38d933d7439c62cc2190220063a7d10a7ba911e1bb45caca0af4f",
-        "bytes": 26991,
+        "sha256": "337590fa6cc94bc44f952eacb1a9e41e78ccd204a03a49bb36781a7eb36c3d90",
+        "bytes": 27231,
         "group": "scripts"
       },
       "assets/images/profile.jpg": {
@@ -247,6 +263,21 @@
         "sha256": "cd7e0c68010b0b870b1ee601766de05927983ebe460414a41a347120ab0e5031",
         "bytes": 5466,
         "group": "images"
+      },
+      "assets/fonts/Amiri-Regular.woff2": {
+        "sha256": "9abf8a10b4a2f27b698740522c9beec9ded7728aeef0738ac0d6e175bf6249d7",
+        "bytes": 108560,
+        "group": "fonts"
+      },
+      "assets/fonts/Amiri-Bold.woff2": {
+        "sha256": "c775d9f8c3a7cf0d0c2bb5246dd699e8c09bf6f8758e1be0b98939331b18bcce",
+        "bytes": 99968,
+        "group": "fonts"
+      },
+      "assets/fonts/OFL-Amiri.txt": {
+        "sha256": "72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22",
+        "bytes": 4389,
+        "group": "fonts"
       },
       "assets/fonts/NotoSansArabic-Regular.woff2": {
         "sha256": "4e2ca0745c908761dc5c5db951662873887c59366fa1a5693ad22c0864abf1bd",
@@ -299,8 +330,8 @@
         "group": "metadata"
       },
       "ASSET_LICENSES.md": {
-        "sha256": "883c036a6dc36ba0e7f07bf13fe30fa9af1c83cc5702f9d4f5bbfbc14c436cb3",
-        "bytes": 5190,
+        "sha256": "1eed7d861fc5aac1b06926847ec8f12ee20f5fa7ae9f64ba5ebd3bb00bc0a668",
+        "bytes": 5846,
         "group": "metadata"
       },
       "RELEASE_NOTES.md": {

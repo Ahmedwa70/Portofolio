@@ -91,7 +91,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "Light mode", dark: "Dark mode" },
     langSwitcher: { label: "Language" },
     loading: { text: "Loading" },
-    footer: { rights: "All rights reserved." },
+    footer: { copyright: "Copyright", rights: "All Rights Reserved." },
     form: {
       name: "Name", email: "Email", message: "Message", submit: "Send Message",
       namePlaceholder: "Your name", emailPlaceholder: "example@email.com",
@@ -123,7 +123,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "الوضع النهاري", dark: "الوضع الليلي" },
     langSwitcher: { label: "اللغة" },
     loading: { text: "جارٍ التحميل" },
-    footer: { rights: "جميع الحقوق محفوظة." },
+    footer: { copyright: "حقوق النشر", rights: "جميع الحقوق محفوظة." },
     form: {
       name: "الاسم", email: "البريد الإلكتروني", message: "الرسالة", submit: "إرسال الرسالة",
       namePlaceholder: "اسمك", emailPlaceholder: "example@email.com",
@@ -155,7 +155,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "浅色模式", dark: "深色模式" },
     langSwitcher: { label: "语言" },
     loading: { text: "加载中" },
-    footer: { rights: "版权所有。" },
+    footer: { copyright: "版权", rights: "版权所有。" },
     form: {
       name: "姓名", email: "电子邮箱", message: "留言", submit: "发送信息",
       namePlaceholder: "您的姓名", emailPlaceholder: "example@email.com",
@@ -187,7 +187,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "Modo claro", dark: "Modo oscuro" },
     langSwitcher: { label: "Idioma" },
     loading: { text: "Cargando" },
-    footer: { rights: "Todos los derechos reservados." },
+    footer: { copyright: "Derechos de Autor", rights: "Todos los derechos reservados." },
     form: {
       name: "Nombre", email: "Correo electrónico", message: "Mensaje", submit: "Enviar Mensaje",
       namePlaceholder: "Tu nombre", emailPlaceholder: "ejemplo@correo.com",
@@ -219,7 +219,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "Mode clair", dark: "Mode sombre" },
     langSwitcher: { label: "Langue" },
     loading: { text: "Chargement" },
-    footer: { rights: "Tous droits réservés." },
+    footer: { copyright: "Droits d'Auteur", rights: "Tous droits réservés." },
     form: {
       name: "Nom", email: "E-mail", message: "Message", submit: "Envoyer le Message",
       namePlaceholder: "Votre nom", emailPlaceholder: "exemple@email.com",
@@ -251,7 +251,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "Aydınlık Mod", dark: "Karanlık Mod" },
     langSwitcher: { label: "Dil" },
     loading: { text: "Yükleniyor" },
-    footer: { rights: "Tüm hakları saklıdır." },
+    footer: { copyright: "Telif Hakkı", rights: "Tüm hakları saklıdır." },
     form: {
       name: "Ad", email: "E-posta", message: "Mesaj", submit: "Mesaj Gönder",
       namePlaceholder: "Adınız", emailPlaceholder: "ornek@eposta.com",
@@ -283,7 +283,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "라이트 모드", dark: "다크 모드" },
     langSwitcher: { label: "언어" },
     loading: { text: "로딩 중" },
-    footer: { rights: "모든 권리 보유." },
+    footer: { copyright: "저작권", rights: "모든 권리 보유." },
     form: {
       name: "이름", email: "이메일", message: "메시지", submit: "메시지 보내기",
       namePlaceholder: "이름을 입력하세요", emailPlaceholder: "example@email.com",
@@ -315,7 +315,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "ライトモード", dark: "ダークモード" },
     langSwitcher: { label: "言語" },
     loading: { text: "読み込み中" },
-    footer: { rights: "全著作権所有。" },
+    footer: { copyright: "著作権", rights: "全著作権所有。" },
     form: {
       name: "お名前", email: "メールアドレス", message: "メッセージ", submit: "メッセージを送信",
       namePlaceholder: "お名前を入力", emailPlaceholder: "example@email.com",
@@ -347,7 +347,7 @@ const UI_TRANSLATIONS = {
     theme: { light: "Mode Terang", dark: "Mode Gelap" },
     langSwitcher: { label: "Bahasa" },
     loading: { text: "Memuat" },
-    footer: { rights: "Hak cipta dilindungi." },
+    footer: { copyright: "Hak Cipta", rights: "Hak cipta dilindungi." },
     form: {
       name: "Nama", email: "Email", message: "Pesan", submit: "Kirim Pesan",
       namePlaceholder: "Nama Anda", emailPlaceholder: "contoh@email.com",

@@ -389,7 +389,11 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <p class="footer-tagline" data-i18n-cv="footer.tagline">—</p>
-    <p class="footer-rights">© <span id="footer-year"></span> <span data-i18n-name>Ahmed Sobhy</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    <!-- Conventional notice form: Copyright © YEAR, Name. All Rights Reserved.
+         The symbol, year and comma are one LTR-isolated run: they carry no
+         direction of their own, so inside the Arabic page they would
+         otherwise be reordered by the bidi algorithm. -->
+    <p class="footer-rights"><span data-i18n="footer.copyright">Copyright</span> <bdi dir="ltr">© <span id="footer-year"></span>,</bdi> <span data-i18n-name>Ahmed Sobhy</span>. <span data-i18n="footer.rights">All Rights Reserved.</span></p>
   </div>
 </footer>
 

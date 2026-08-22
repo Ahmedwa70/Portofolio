@@ -54,6 +54,18 @@ with its per-script optical multipliers, and the layout system. See
 
 ## 2. Third-party — NOT owned by Ahmed Sobhy
 
+### Amiri
+
+| | |
+|---|---|
+| **Files** | `assets/fonts/Amiri-Regular.woff2` (400) · `Amiri-Bold.woff2` (700) |
+| **Copyright** | Copyright 2010–2022 The Amiri Project Authors |
+| **Licence** | SIL Open Font License, Version 1.1 |
+| **Licence text** | [`assets/fonts/OFL-Amiri.txt`](assets/fonts/OFL-Amiri.txt) — required to ship with the fonts |
+| **Source** | Google Fonts, Arabic-subset WOFF2 builds |
+| **Upstream** | https://github.com/aliftype/amiri |
+| **Role** | Arabic display face for headings, replacing the reliance on 'Traditional Arabic', a Windows system font that could not be redistributed and was absent on most visitors' devices. |
+
 ### Noto Sans Arabic
 
 | | |
