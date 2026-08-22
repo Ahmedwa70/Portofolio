@@ -76,7 +76,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "Professional Identity" },
       highlights: { eyebrow: "At a Glance", title: "Professional Highlights" },
-      about: { eyebrow: "About Me", title: "About Me" },
+      about: { eyebrow: "About Me", title: "My Story" },
       achievements: { eyebrow: "Professional Impact", title: "Professional Achievements" },
       experience: { eyebrow: "Career Path", title: "Experience Timeline", responsibilities: "Responsibilities", achievements: "Contributions", skills: "Skills Developed" },
       methodology: { eyebrow: "Teaching Approach", title: "Teaching Methodology" },
@@ -140,7 +140,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "职业身份" },
       highlights: { eyebrow: "概览", title: "职业亮点" },
-      about: { eyebrow: "关于我", title: "关于我" },
+      about: { eyebrow: "关于我", title: "我的简介" },
       achievements: { eyebrow: "职业影响力", title: "职业成就" },
       experience: { eyebrow: "职业历程", title: "工作经历", responsibilities: "职责", achievements: "贡献", skills: "习得技能" },
       methodology: { eyebrow: "教学理念", title: "教学方法" },
@@ -172,7 +172,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "Identidad Profesional" },
       highlights: { eyebrow: "De un Vistazo", title: "Aspectos Profesionales Destacados" },
-      about: { eyebrow: "Sobre Mí", title: "Sobre Mí" },
+      about: { eyebrow: "Sobre Mí", title: "Mi Trayectoria" },
       achievements: { eyebrow: "Impacto Profesional", title: "Logros Profesionales" },
       experience: { eyebrow: "Trayectoria Profesional", title: "Trayectoria Laboral", responsibilities: "Responsabilidades", achievements: "Contribuciones", skills: "Competencias Desarrolladas" },
       methodology: { eyebrow: "Enfoque Pedagógico", title: "Metodología de Enseñanza" },
@@ -204,7 +204,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "Identité Professionnelle" },
       highlights: { eyebrow: "En Bref", title: "Points Forts Professionnels" },
-      about: { eyebrow: "À Propos", title: "À Propos de Moi" },
+      about: { eyebrow: "À Propos de Moi", title: "Mon Parcours" },
       achievements: { eyebrow: "Impact Professionnel", title: "Réalisations Professionnelles" },
       experience: { eyebrow: "Parcours Professionnel", title: "Parcours Professionnel", responsibilities: "Responsabilités", achievements: "Contributions", skills: "Compétences Développées" },
       methodology: { eyebrow: "Approche Pédagogique", title: "Méthodologie d'Enseignement" },
@@ -236,7 +236,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "Mesleki Kimlik" },
       highlights: { eyebrow: "Bir Bakışta", title: "Mesleki Öne Çıkanlar" },
-      about: { eyebrow: "Hakkımda", title: "Hakkımda" },
+      about: { eyebrow: "Hakkımda", title: "Benim Hikâyem" },
       achievements: { eyebrow: "Mesleki Etki", title: "Mesleki Başarılar" },
       experience: { eyebrow: "Kariyer Yolculuğu", title: "Deneyim Zaman Çizelgesi", responsibilities: "Sorumluluklar", achievements: "Katkılar", skills: "Kazanılan Beceriler" },
       methodology: { eyebrow: "Öğretim Yaklaşımı", title: "Öğretim Metodolojisi" },
@@ -268,7 +268,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "전문 정체성" },
       highlights: { eyebrow: "한눈에 보기", title: "주요 전문 성과" },
-      about: { eyebrow: "소개", title: "저에 대해" },
+      about: { eyebrow: "소개", title: "나의 이야기" },
       achievements: { eyebrow: "전문적 성과", title: "주요 성과" },
       experience: { eyebrow: "경력 여정", title: "경력 타임라인", responsibilities: "담당 업무", achievements: "주요 기여", skills: "습득 역량" },
       methodology: { eyebrow: "교수 접근법", title: "교수법" },
@@ -300,7 +300,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "プロフェッショナル・アイデンティティ" },
       highlights: { eyebrow: "概要", title: "プロフェッショナル・ハイライト" },
-      about: { eyebrow: "プロフィール", title: "プロフィール" },
+      about: { eyebrow: "私について", title: "プロフィール" },
       achievements: { eyebrow: "実績", title: "主な実績" },
       experience: { eyebrow: "キャリアパス", title: "職務経歴", responsibilities: "職務内容", achievements: "貢献", skills: "習得スキル" },
       methodology: { eyebrow: "指導アプローチ", title: "指導方法" },
@@ -332,7 +332,7 @@ const UI_TRANSLATIONS = {
     sections: {
       academicProfile: { eyebrow: "Identitas Profesional" },
       highlights: { eyebrow: "Sekilas", title: "Sorotan Profesional" },
-      about: { eyebrow: "Tentang Saya", title: "Tentang Saya" },
+      about: { eyebrow: "Tentang Saya", title: "Profil Saya" },
       achievements: { eyebrow: "Dampak Profesional", title: "Pencapaian Profesional" },
       experience: { eyebrow: "Perjalanan Karier", title: "Linimasa Pengalaman", responsibilities: "Tanggung Jawab", achievements: "Kontribusi", skills: "Keterampilan yang Dikembangkan" },
       methodology: { eyebrow: "Pendekatan Pengajaran", title: "Metodologi Pengajaran" },

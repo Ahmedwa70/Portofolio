@@ -18,7 +18,7 @@ GROUPS = [
     ("images",   ["assets/images/profile.jpg",
                   "assets/images/favicon.svg",
                   "assets/images/profile-placeholder.svg",
-                  "assets/images/wechat-qr.jpg"]),
+                  "assets/images/wechat-qr.png"]),
     ("fonts",    ["assets/fonts/NotoSansArabic-Regular.woff2",
                   "assets/fonts/NotoSansArabic-Medium.woff2",
                   "assets/fonts/NotoSansArabic-SemiBold.woff2",

@@ -163,8 +163,8 @@
     "algorithm": "sha256",
     "generated": "2026-08-22",
     "fileCount": 22,
-    "totalBytes": 666453,
-    "combined": "99b9df794c662ec89568cc552deb16667909cff797de6263d402c1662adda2d6",
+    "totalBytes": 581841,
+    "combined": "bcc8140b61f4d320c61f469446af12da9fca2046cf43dfd902d69a782f520d41",
     "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
     "groups": {
       "markup": [
@@ -182,7 +182,7 @@
         "assets/images/profile.jpg",
         "assets/images/favicon.svg",
         "assets/images/profile-placeholder.svg",
-        "assets/images/wechat-qr.jpg"
+        "assets/images/wechat-qr.png"
       ],
       "fonts": [
         "assets/fonts/NotoSansArabic-Regular.woff2",
@@ -209,8 +209,8 @@
         "group": "markup"
       },
       "css/style.css": {
-        "sha256": "0e27414ab49c393421d55ba204bf08384f40c5b5bf84e69c41318115d6bf8380",
-        "bytes": 49594,
+        "sha256": "d3e82ae41a71b47a83b3c07e07e8caeb104eb19db507c4f5f71a8b3f435c25d2",
+        "bytes": 49788,
         "group": "styles"
       },
       "js/app.js": {
@@ -219,13 +219,13 @@
         "group": "scripts"
       },
       "js/data.js": {
-        "sha256": "29dfd0ea8971ff2c2e279217504af8ed85a11343e8b455e0eb8421eceff44ee3",
-        "bytes": 111057,
+        "sha256": "d881e55cbfc619f75a83634abff8afd7d23fcf8fb5e5a463724ba406eaabda51",
+        "bytes": 111202,
         "group": "scripts"
       },
       "js/translations.js": {
-        "sha256": "9f06566261fe39d401503c9b472a4f89e39bc356e8cc55aa37a6cf6665d4339c",
-        "bytes": 26976,
+        "sha256": "494440419eb38d933d7439c62cc2190220063a7d10a7ba911e1bb45caca0af4f",
+        "bytes": 26991,
         "group": "scripts"
       },
       "assets/images/profile.jpg": {
@@ -243,9 +243,9 @@
         "bytes": 947,
         "group": "images"
       },
-      "assets/images/wechat-qr.jpg": {
-        "sha256": "5d73168e8994774230949ea02e15412f5297ba286e4f7a158111a17ba0b515d1",
-        "bytes": 90432,
+      "assets/images/wechat-qr.png": {
+        "sha256": "cd7e0c68010b0b870b1ee601766de05927983ebe460414a41a347120ab0e5031",
+        "bytes": 5466,
         "group": "images"
       },
       "assets/fonts/NotoSansArabic-Regular.woff2": {
