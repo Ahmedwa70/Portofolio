@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ahmed Sobhy monogram">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101B3D"/>
+      <stop offset="100%" stop-color="#060B1C"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#2EC4B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#ringGrad)" stroke-width="2" opacity="0.55"/>
+  <circle cx="200" cy="200" r="168" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.25" stroke-dasharray="2 6"/>
+  <text x="200" y="228" font-family="Georgia, 'Palatino Linotype', serif" font-size="120" fill="#F5F3EC" text-anchor="middle" font-weight="600">AS</text>
+</svg>

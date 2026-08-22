@@ -1,0 +1,13 @@
+# Ahmed Sobhy — academic portfolio
+# Everything here is meant to be public and indexed.
+
+User-agent: *
+Allow: /
+
+# ⚠️ REPLACE example.com WITH THE REAL DOMAIN BEFORE PUBLISHING.
+# This is the only place the domain is hardcoded besides sitemap.xml.
+Sitemap: https://example.com/sitemap.xml
+
+# Maintenance tooling and the integrity manifest are public for verification
+# but carry no content worth indexing.
+Disallow: /meta/regenerate-manifest.py

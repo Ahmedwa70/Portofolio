@@ -1,0 +1,71 @@
+Copyright © 2026 Ahmed Sobhy. All Rights Reserved.
+
+PROPRIETARY — NOT OPEN SOURCE
+================================================================================
+
+This repository contains the original design, source code, architecture,
+written content and visual identity of the personal academic portfolio of
+Ahmed Sobhy ("the Work").
+
+The Work includes, without limitation:
+
+  * The multilingual content-management architecture separating CV_DATA
+    (js/data.js), UI_TRANSLATIONS (js/translations.js) and the rendering
+    engine (js/app.js), including the getLocalizedValue() resolution model
+    and the nine-language translation-completeness validator.
+  * The visual identity: the Deep Navy / Gold / Turquoise design tokens, the
+    arched portrait treatment, and the per-script typography system with its
+    optical size multipliers and bidirectional isolation rules (css/style.css).
+  * All written content in all nine languages: the professional titles,
+    biography, experience descriptions, teaching methodology, and every
+    translated string.
+  * The photographic portrait of Ahmed Sobhy (assets/images/profile.jpg).
+
+
+GRANT
+--------------------------------------------------------------------------------
+No licence is granted. You may view this site in a web browser, and your
+browser may cache it for that purpose. Nothing further is permitted.
+
+
+PROHIBITED WITHOUT PRIOR WRITTEN PERMISSION
+--------------------------------------------------------------------------------
+  * Reproducing, republishing, mirroring or redistributing the Work or any
+    substantial part of it.
+  * Creating derivative works, including reskinning the design or reusing the
+    architecture with different content.
+  * Using the portrait photograph for any purpose.
+  * Removing, altering or obscuring the copyright notices in the source files
+    or in meta/ownership.json.
+  * Presenting the Work, or any part of it, as your own.
+
+
+PERMITTED WITHOUT PERMISSION
+--------------------------------------------------------------------------------
+  * Quoting short excerpts for review, commentary, reporting or academic
+    citation, with attribution to Ahmed Sobhy and a link to the site.
+  * Linking to the site.
+
+
+THIRD-PARTY COMPONENTS
+--------------------------------------------------------------------------------
+The following are NOT covered by this licence and remain under their own terms:
+
+  Noto Sans Arabic (assets/fonts/*.woff2)
+  Copyright 2022 The Noto Project Authors
+  SIL Open Font License, Version 1.1 — full text in assets/fonts/OFL.txt
+
+No other third-party code, framework or library is used. The site has no
+runtime network dependencies.
+
+
+INTEGRITY
+--------------------------------------------------------------------------------
+meta/ownership.json records a SHA-256 digest of every source file at the time
+of publication. It can be used to demonstrate the state and authorship of the
+Work at that date.
+
+
+CONTACT
+--------------------------------------------------------------------------------
+Permission requests: Ahmedwa70@yahoo.com

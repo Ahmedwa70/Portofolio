@@ -1,0 +1,18 @@
+{
+  "name": "Ahmed Sobhy — Arabic Language Instructor",
+  "short_name": "Ahmed Sobhy",
+  "description": "International Arabic language educator and digital learning experience designer.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A1128",
+  "theme_color": "#0A1128",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

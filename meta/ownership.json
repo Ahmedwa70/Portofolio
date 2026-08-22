@@ -1,0 +1,318 @@
+{
+  "$schema": "https://ahmedsobhy.invalid/schemas/ownership-manifest-1.json",
+  "$comment": "Ownership and integrity manifest. Each sha256 is of the file's exact bytes as published. Regenerate after any change and timestamp the result so the digests can be tied to a date.",
+  "manifestVersion": "1.0",
+  "project": {
+    "id": "as-academic-portfolio",
+    "name": "Ahmed Sobhy - Academic Portfolio",
+    "description": "Offline-first multilingual academic portfolio for an Arabic language educator. Nine complete languages, right-to-left and left-to-right, no frameworks and no runtime network dependency.",
+    "version": "1.0.0",
+    "created": "2026-01-01",
+    "updated": "2026-08-22",
+    "status": "Published"
+  },
+  "owner": {
+    "name": "Ahmed Sobhy",
+    "role": "Author, designer and sole developer",
+    "contact": "Ahmedwa70@yahoo.com",
+    "profiles": {
+      "linkedin": "https://www.linkedin.com/in/ahmedwa70/"
+    }
+  },
+  "copyright": {
+    "holder": "Ahmed Sobhy",
+    "year": 2026,
+    "notice": "Copyright (c) 2026 Ahmed Sobhy. All Rights Reserved.",
+    "license": "LICENSE.txt",
+    "licenseType": "Proprietary - All Rights Reserved",
+    "covers": [
+      "Original visual design and design-token system",
+      "Original software architecture and implementation",
+      "All written content in all nine languages",
+      "Original photography, icons and vector graphics"
+    ],
+    "excludes": [
+      "Noto Sans Arabic - Copyright 2022 The Noto Project Authors, SIL OFL 1.1"
+    ]
+  },
+  "architecture": {
+    "documentation": "ARCHITECTURE.md",
+    "model": "Three-layer separation: DATA / STRINGS / ENGINE, with a text-free VIEW",
+    "layers": {
+      "data": {
+        "file": "js/data.js",
+        "exposes": "SUPPORTED_LANGUAGES, CV_DATA",
+        "role": "Single source of truth for personal content"
+      },
+      "strings": {
+        "file": "js/translations.js",
+        "exposes": "UI_TRANSLATIONS",
+        "role": "Interface chrome only, keyed language-first"
+      },
+      "engine": {
+        "file": "js/app.js",
+        "exposes": "nothing - wrapped in an IIFE",
+        "role": "Resolver, renderers, language routing, validator"
+      },
+      "view": {
+        "files": [
+          "index.html",
+          "css/style.css"
+        ],
+        "role": "Structure and presentation - contains no text"
+      }
+    },
+    "distinctiveElements": [
+      "getLocalizedValue() - the single point where any multilingual field resolves",
+      "Structural dictionary detection - avoids the 'id' collision between the Indonesian language code and the identifier field",
+      "Development-only translation-completeness validator across nine languages",
+      "Seven-level rem type scale with per-script optical multipliers",
+      "bdi() bidirectional isolation for lines mixing scripts or digits",
+      "Arabic long-form reading layer with unicode-range-scoped local Noto Sans Arabic",
+      "Script-weighted copy-attribution threshold, fair across writing systems"
+    ],
+    "constraints": [
+      "No frameworks, libraries or third-party code",
+      "No build step - published files are the source files",
+      "No runtime network requests",
+      "No per-language branching anywhere in the codebase",
+      "No hardcoded text outside the two data files"
+    ]
+  },
+  "languages": {
+    "count": 9,
+    "default": "en",
+    "supported": [
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      },
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "dir": "rtl"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese",
+        "dir": "ltr"
+      },
+      {
+        "code": "es",
+        "name": "Spanish",
+        "dir": "ltr"
+      },
+      {
+        "code": "fr",
+        "name": "French",
+        "dir": "ltr"
+      },
+      {
+        "code": "tr",
+        "name": "Turkish",
+        "dir": "ltr"
+      },
+      {
+        "code": "ko",
+        "name": "Korean",
+        "dir": "ltr"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese",
+        "dir": "ltr"
+      },
+      {
+        "code": "id",
+        "name": "Indonesian",
+        "dir": "ltr"
+      }
+    ],
+    "completeness": "Every field is authored in all nine languages; a development-mode validator enforces it."
+  },
+  "assets": {
+    "documentation": "ASSET_LICENSES.md",
+    "original": {
+      "photography": [
+        "assets/images/profile.jpg"
+      ],
+      "graphics": [
+        "assets/images/favicon.svg",
+        "assets/images/profile-placeholder.svg"
+      ],
+      "inlineVector": "16 stroke icons defined in js/app.js (ICONS), plus the Arabic calligraphy watermark and theme icons in index.html"
+    },
+    "thirdParty": [
+      {
+        "name": "Noto Sans Arabic",
+        "files": [
+          "assets/fonts/NotoSansArabic-Regular.woff2",
+          "assets/fonts/NotoSansArabic-Medium.woff2",
+          "assets/fonts/NotoSansArabic-SemiBold.woff2"
+        ],
+        "copyright": "Copyright 2022 The Noto Project Authors",
+        "license": "SIL Open Font License 1.1",
+        "licenseFile": "assets/fonts/OFL.txt",
+        "upstream": "https://github.com/notofonts/arabic"
+      }
+    ],
+    "systemFonts": "Referenced in CSS stacks, loaded from the visitor's device, not redistributed."
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "generated": "2026-08-22",
+    "fileCount": 22,
+    "totalBytes": 666453,
+    "combined": "99b9df794c662ec89568cc552deb16667909cff797de6263d402c1662adda2d6",
+    "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
+    "groups": {
+      "markup": [
+        "index.html"
+      ],
+      "styles": [
+        "css/style.css"
+      ],
+      "scripts": [
+        "js/app.js",
+        "js/data.js",
+        "js/translations.js"
+      ],
+      "images": [
+        "assets/images/profile.jpg",
+        "assets/images/favicon.svg",
+        "assets/images/profile-placeholder.svg",
+        "assets/images/wechat-qr.jpg"
+      ],
+      "fonts": [
+        "assets/fonts/NotoSansArabic-Regular.woff2",
+        "assets/fonts/NotoSansArabic-Medium.woff2",
+        "assets/fonts/NotoSansArabic-SemiBold.woff2",
+        "assets/fonts/OFL.txt"
+      ],
+      "metadata": [
+        "site.webmanifest",
+        "robots.txt",
+        "sitemap.xml",
+        "LICENSE.txt",
+        "VERSION.md",
+        "ARCHITECTURE.md",
+        "ASSET_LICENSES.md",
+        "RELEASE_NOTES.md",
+        "README.md"
+      ]
+    },
+    "files": {
+      "index.html": {
+        "sha256": "2efbbecc1b192f5fa1bdf7e5affbf0f9f61dfd58e1c29e90d75462e2db340b9e",
+        "bytes": 20051,
+        "group": "markup"
+      },
+      "css/style.css": {
+        "sha256": "0e27414ab49c393421d55ba204bf08384f40c5b5bf84e69c41318115d6bf8380",
+        "bytes": 49594,
+        "group": "styles"
+      },
+      "js/app.js": {
+        "sha256": "cdc9116129ce45141fe4f2b94adef60acac63e4557c43994b6165200c06bebd2",
+        "bytes": 45848,
+        "group": "scripts"
+      },
+      "js/data.js": {
+        "sha256": "29dfd0ea8971ff2c2e279217504af8ed85a11343e8b455e0eb8421eceff44ee3",
+        "bytes": 111057,
+        "group": "scripts"
+      },
+      "js/translations.js": {
+        "sha256": "9f06566261fe39d401503c9b472a4f89e39bc356e8cc55aa37a6cf6665d4339c",
+        "bytes": 26976,
+        "group": "scripts"
+      },
+      "assets/images/profile.jpg": {
+        "sha256": "1b26b438e08b88dba77299c04d40f3b0c6dea0ed72b61a5b0aea5094ac5bfbfc",
+        "bytes": 117077,
+        "group": "images"
+      },
+      "assets/images/favicon.svg": {
+        "sha256": "1f725dfd7d3e97b7bfcc18a0f477da738cbfc498830bb5408a032a7189bbc588",
+        "bytes": 856,
+        "group": "images"
+      },
+      "assets/images/profile-placeholder.svg": {
+        "sha256": "9ed48c65f2f73b2f0feab6ef68a8837e2da6597e10c10902a4fe9264e7dc37ad",
+        "bytes": 947,
+        "group": "images"
+      },
+      "assets/images/wechat-qr.jpg": {
+        "sha256": "5d73168e8994774230949ea02e15412f5297ba286e4f7a158111a17ba0b515d1",
+        "bytes": 90432,
+        "group": "images"
+      },
+      "assets/fonts/NotoSansArabic-Regular.woff2": {
+        "sha256": "4e2ca0745c908761dc5c5db951662873887c59366fa1a5693ad22c0864abf1bd",
+        "bytes": 48840,
+        "group": "fonts"
+      },
+      "assets/fonts/NotoSansArabic-Medium.woff2": {
+        "sha256": "38599e3046a0ceeae9d10fb9c282424d16b7a05f0838478fabe27908fc922722",
+        "bytes": 53120,
+        "group": "fonts"
+      },
+      "assets/fonts/NotoSansArabic-SemiBold.woff2": {
+        "sha256": "52a2cd4b0ff37ac84ef9af585af2eca0a300d49ea4934cf023827de54fdc354f",
+        "bytes": 53260,
+        "group": "fonts"
+      },
+      "assets/fonts/OFL.txt": {
+        "sha256": "a7a5a25eb188bf1cd96982030d53e23c33485c69b1044a562254226857ee13af",
+        "bytes": 4382,
+        "group": "fonts"
+      },
+      "site.webmanifest": {
+        "sha256": "30410b0e4d8135defaede04c1bacce2566f6e17b58ba759635ed21af17bc2eae",
+        "bytes": 465,
+        "group": "metadata"
+      },
+      "robots.txt": {
+        "sha256": "1654bafd04dce2b79ccb6f864cc86d89708ac2db1b5a9af0d9fbb90011f9e576",
+        "bytes": 451,
+        "group": "metadata"
+      },
+      "sitemap.xml": {
+        "sha256": "5dd79eb26c1634e995f3009d7ba9096eeef179ee4d474495757e73741823d787",
+        "bytes": 9426,
+        "group": "metadata"
+      },
+      "LICENSE.txt": {
+        "sha256": "1e85d5e444c714c2ce898e43dd380c4c6c87b7bfcd73748808ae6cc76062ed67",
+        "bytes": 3065,
+        "group": "metadata"
+      },
+      "VERSION.md": {
+        "sha256": "33a07714b100ade5f8dd2d0c9804f36947ac84d90f5f956828d61d7496d48c94",
+        "bytes": 3640,
+        "group": "metadata"
+      },
+      "ARCHITECTURE.md": {
+        "sha256": "98fb0971a623fe4264b5b2ebc67ffbd8e8680d80dc57a6dc0b7159b0d7a93061",
+        "bytes": 7724,
+        "group": "metadata"
+      },
+      "ASSET_LICENSES.md": {
+        "sha256": "883c036a6dc36ba0e7f07bf13fe30fa9af1c83cc5702f9d4f5bbfbc14c436cb3",
+        "bytes": 5190,
+        "group": "metadata"
+      },
+      "RELEASE_NOTES.md": {
+        "sha256": "94d0df640234b3ef9d47b2d4a6aa1675e9e3b3fc9e3b6ed5de716a9f542281e5",
+        "bytes": 2886,
+        "group": "metadata"
+      },
+      "README.md": {
+        "sha256": "0f96048aefd84720d3d26ee29f04c32a5c6328365f9f7f9190476720a7fb2eb6",
+        "bytes": 11166,
+        "group": "metadata"
+      }
+    }
+  }
+}
