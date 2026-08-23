@@ -120,7 +120,16 @@ const CV_DATA = {
         // black and white — the margins are now an even 65px on all four
         // sides, which is exactly the 4 modules ISO/IEC 18004 requires.
         qr: "assets/images/wechat-qr.png",
-        label: "WeChat"      // brand name, never translated
+        // The one channel with an official local name rather than a mere
+        // transliteration: 微信 is the original Chinese product, "WeChat"
+        // the international one, and 위챗 is standard in Korean. Everywhere
+        // else — Japanese included — the Latin form is what a native reader
+        // expects, and it is what each language's own hint text already uses.
+        label: {
+          en: "WeChat", ar: "WeChat", zh: "微信", es: "WeChat",
+          fr: "WeChat", tr: "WeChat", ko: "위챗", ja: "WeChat",
+          id: "WeChat"
+        }
       }
     },
     // One PDF per language. Empty string = not yet provided; the

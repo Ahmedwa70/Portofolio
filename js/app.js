@@ -592,7 +592,9 @@
     if (!available) return;
 
     var label = wrap.querySelector(".contact-label");
-    if (label) label.textContent = entry.label || "WeChat";
+    // Through the resolver, so a label may be either a plain brand string or
+    // a translation dictionary — WeChat is the one that carries local names.
+    if (label) label.textContent = getLocalizedValue(entry.label, lang) || "WeChat";
 
     var image = document.getElementById("wechat-qr-image");
     var link = document.getElementById("wechat-qr-link");
@@ -648,7 +650,10 @@
       link.innerHTML =
         '<svg class="profile-icon" viewBox="0 0 24 24" aria-hidden="true">' +
         (ICONS[key] || ICONS.globe) + "</svg>" +
-        "<span>" + escapeHtml(profile.label || key) + "</span>";
+        // Resolved too, so a link profile can carry a localised name later
+        // without touching this code. Plain brand strings pass through
+        // unchanged, which is what LinkedIn and WhatsApp use.
+        "<span>" + escapeHtml(getLocalizedValue(profile.label) || key) + "</span>";
       list.appendChild(link);
     });
   }

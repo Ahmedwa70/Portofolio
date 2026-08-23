@@ -8,7 +8,7 @@
     "description": "Offline-first multilingual academic portfolio for an Arabic language educator. Nine complete languages, right-to-left and left-to-right, no frameworks and no runtime network dependency.",
     "version": "1.0.0",
     "created": "2026-01-01",
-    "updated": "2026-08-22",
+    "updated": "2026-08-23",
     "status": "Published"
   },
   "owner": {
@@ -174,10 +174,10 @@
   },
   "integrity": {
     "algorithm": "sha256",
-    "generated": "2026-08-22",
+    "generated": "2026-08-23",
     "fileCount": 25,
-    "totalBytes": 801235,
-    "combined": "05c7fa540bc430142a8991c767d264630f680b662c1aa7506d100a536c1065b8",
+    "totalBytes": 802435,
+    "combined": "2f2525b540fd93204a21df298feb4da4c452a1a9143ef3bf942b12ef96a4ab08",
     "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
     "groups": {
       "markup": [
@@ -225,18 +225,18 @@
         "group": "markup"
       },
       "css/style.css": {
-        "sha256": "bda977d02946e40ea40a3e04b5014d00a4b004452285897dc981f6efcf46bf25",
-        "bytes": 52479,
+        "sha256": "7208b3a32e833308142db82262ddbe1c937f029a4fd2725212095d0679bb0b85",
+        "bytes": 52798,
         "group": "styles"
       },
       "js/app.js": {
-        "sha256": "8d76f5779ef71bce711d46d9a881c373121140296590a62b73eb19a07ae8cbbb",
-        "bytes": 47918,
+        "sha256": "a3e796611d6a4673003fe05542eeee23a13a87637a97c74441ec790cf7bfc872",
+        "bytes": 48331,
         "group": "scripts"
       },
       "js/data.js": {
-        "sha256": "cfa654a84e2bca9e2f4ba9e18340199abedc8657c4d93ae790acc200099d9496",
-        "bytes": 111662,
+        "sha256": "55bd73de012adb23c7c0c104cce18d3a880c0967b47d392c174e55efdf22017e",
+        "bytes": 112173,
         "group": "scripts"
       },
       "js/translations.js": {
@@ -260,8 +260,8 @@
         "group": "images"
       },
       "assets/images/wechat-qr.png": {
-        "sha256": "cd7e0c68010b0b870b1ee601766de05927983ebe460414a41a347120ab0e5031",
-        "bytes": 5466,
+        "sha256": "e58706481e0ec3a23b7572f62b84a8b987e2b5acfce8336104e2b398bd71ed61",
+        "bytes": 5423,
         "group": "images"
       },
       "assets/fonts/Amiri-Regular.woff2": {
