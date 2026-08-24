@@ -416,10 +416,11 @@
       var skillsList = getLocalizedValue(entry.skills, lang) || [];
       var org = getLocalizedValue(entry.organization, lang);
       var loc = getLocalizedValue(entry.location, lang);
-      // Organization and location are separate, editable fields in data.js,
-      // but currently share the same value for these roles — avoid a
-      // redundant "China · China" style display when they're identical.
-      var orgLine = (loc && loc !== org) ? (org + " · " + loc) : org;
+      // Organization holds the official institution name, location the place.
+      // Some roles have no institution (private tutoring) and some legacy
+      // entries repeat the place in both fields — show one line either way,
+      // never a dangling separator.
+      var orgLine = (org && loc && loc !== org) ? (org + " · " + loc) : (org || loc);
 
       var wrap = document.createElement("div");
       wrap.className = "timeline-item reveal";
@@ -545,13 +546,24 @@
     container.innerHTML = "";
     CV_DATA.certifications.forEach(function (entry) {
       var description = getLocalizedValue(entry.description, lang);
+      var institution = getLocalizedValue(entry.institution, lang);
+      var location = getLocalizedValue(entry.location, lang);
+      var metaHtml = bdi(institution);
+      if (location && location !== institution) metaHtml += " — " + bdi(location);
+      metaHtml += " · " + bdi(entry.year, "ltr");
+
+      var coursesList = getLocalizedValue(entry.courses, lang) || [];
+      var coursesHtml = coursesList.length
+        ? '<ul class="cert-courses">' + coursesList.map(function (c) { return "<li>" + escapeHtml(c) + "</li>"; }).join("") + "</ul>"
+        : "";
+
       var el = document.createElement("div");
       el.className = "cert-item reveal";
       el.innerHTML = iconSvg("certificate") +
         '<div class="cert-body"><span class="cert-name">' + escapeHtml(getLocalizedValue(entry.name, lang)) + "</span>" +
-        '<span class="cert-meta">' + bdi(getLocalizedValue(entry.institution, lang)) +
-          " · " + bdi(entry.year, "ltr") + "</span>" +
+        '<span class="cert-meta">' + metaHtml + "</span>" +
         (description ? '<span class="cert-desc">' + escapeHtml(description) + "</span>" : "") +
+        coursesHtml +
         "</div>";
       container.appendChild(el);
     });

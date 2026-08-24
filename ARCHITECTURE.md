@@ -49,7 +49,7 @@ so the page is readable if JavaScript never runs.
 **Translatable fields** are dictionaries keyed by language:
 
 ```js
-degree: { en: "Bachelor of Industrial Education", ar: "بكالوريوس التعليم الصناعي", … }
+degree: { en: "Bachelor of Science and Education", ar: "بكالوريوس العلوم والتربية", … }
 ```
 
 **Non-translatable fields** stay plain strings, and the distinction is

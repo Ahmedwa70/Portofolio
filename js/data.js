@@ -483,7 +483,7 @@ const CV_DATA = {
     {
       id: "exp1", icon: "language", period: "2016 — 2026",
       position: { en: "International Arabic Language Instructor", ar: "مدرس لغة عربية دولي", zh: "国际阿拉伯语教师", es: "Instructor Internacional de Lengua Árabe", fr: "Instructeur International de Langue Arabe", tr: "Uluslararası Arapça Dil Eğitmeni", ko: "국제 아랍어 강사", ja: "国際アラビア語講師", id: "Instruktur Bahasa Arab Internasional" },
-      organization: { en: "China", ar: "الصين", zh: "中国", es: "China", fr: "Chine", tr: "Çin", ko: "중국", ja: "中国", id: "Tiongkok" },
+      organization: { en: "Shandong Foreign Language Vocational and Technical University of International Studies", ar: "جامعة شاندونغ المهنية والتقنية للغات الأجنبية", zh: "山东外国语职业技术大学", es: "Universidad Vocacional y Técnica de Lenguas Extranjeras de Shandong", fr: "Université Professionnelle et Technique des Langues Étrangères du Shandong", tr: "Shandong Yabancı Diller Mesleki ve Teknik Üniversitesi", ko: "산둥외국어직업기술대학교", ja: "山東外国語職業技術大学", id: "Universitas Vokasi dan Teknik Bahasa Asing Shandong" },
       location: { en: "China", ar: "الصين", zh: "中国", es: "China", fr: "Chine", tr: "Çin", ko: "중국", ja: "中国", id: "Tiongkok" },
       summary: {
         en: "Teaching Arabic as a Foreign Language to international, non-native learners in China, with an emphasis on learner-centered course design. Combines communicative teaching methods with purpose-built interactive materials to make language acquisition practical and engaging rather than purely theoretical.",
@@ -632,7 +632,6 @@ const CV_DATA = {
     {
       id: "exp2", icon: "book", period: "2013 — 2015",
       position: { en: "Arabic Language Teacher", ar: "مدرس لغة عربية", zh: "阿拉伯语教师", es: "Profesor de Lengua Árabe", fr: "Professeur de Langue Arabe", tr: "Arapça Öğretmeni", ko: "아랍어 교사", ja: "アラビア語教師", id: "Guru Bahasa Arab" },
-      organization: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       location: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       summary: {
         en: "Provided private Arabic language instruction for young learners in Al-Arish, Egypt, focused on building strong foundational literacy and communication skills through personalized, learner-paced lessons.",
@@ -682,7 +681,7 @@ const CV_DATA = {
     {
       id: "exp3", icon: "computer", period: "2014 — 2016",
       position: { en: "Computer Teacher & Quality Management Assistant", ar: "مدرس حاسب آلي ومساعد إدارة جودة", zh: "计算机教师兼质量管理助理", es: "Profesor de Informática y Asistente de Gestión de Calidad", fr: "Professeur d'Informatique et Assistant en Gestion de la Qualité", tr: "Bilgisayar Öğretmeni ve Kalite Yönetimi Asistanı", ko: "컴퓨터 교사 겸 품질관리 보조", ja: "コンピュータ教師 兼 品質管理アシスタント", id: "Guru Komputer & Asisten Manajemen Mutu" },
-      organization: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
+      organization: { en: "Sinai Private School", ar: "سينا سكول الخاصة", zh: "西奈私立学校", es: "Escuela Privada Sinaí", fr: "École Privée Sinaï", tr: "Sina Özel Okulu", ko: "시나이 사립학교", ja: "シナイ私立学校", id: "Sekolah Swasta Sinai" },
       location: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       summary: {
         en: "Taught computer science fundamentals while contributing to quality management processes at a school in Al-Arish, Egypt — an early foundation for combining technology with structured educational practice.",
@@ -732,7 +731,7 @@ const CV_DATA = {
     {
       id: "exp4", icon: "design", period: "2010 — 2014",
       position: { en: "Graphic Designer", ar: "مصمم جرافيك", zh: "平面设计师", es: "Diseñador Gráfico", fr: "Graphiste", tr: "Grafik Tasarımcı", ko: "그래픽 디자이너", ja: "グラフィックデザイナー", id: "Desainer Grafis" },
-      organization: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
+      organization: { en: "Independent Designer", ar: "مصمم مستقل", zh: "独立设计师", es: "Diseñador Independiente", fr: "Designer Indépendant", tr: "Bağımsız Tasarımcı", ko: "프리랜서 디자이너", ja: "フリーランスデザイナー", id: "Desainer Independen" },
       location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
       summary: {
         en: "Designed promotional and broadcast visual content for clients in Cairo, Egypt — building a foundation in visual communication and digital media production later applied to educational content design.",
@@ -974,7 +973,7 @@ const CV_DATA = {
   education: [
     {
       id: "edu2", year: "2021",
-      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "Arabic Institute for Studies", es: "Arabic Institute for Studies", fr: "Arabic Institute for Studies", tr: "Arabic Institute for Studies", ko: "Arabic Institute for Studies", ja: "Arabic Institute for Studies", id: "Arabic Institute for Studies" },
+      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
       location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
       degree: { en: "Diploma in Arabic Language for Non-Native Speakers", ar: "دبلومة تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学文凭", es: "Diplomado en Lengua Árabe para No Nativos", fr: "Diplôme d'Arabe pour Locuteurs Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Dili Diploması", ko: "비원어민을 위한 아랍어 디플로마", ja: "非母語話者向けアラビア語ディプロマ", id: "Diploma Bahasa Arab untuk Penutur Non-Native" },
       description: {
@@ -991,9 +990,9 @@ const CV_DATA = {
     },
     {
       id: "edu3", year: "2021",
-      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "Arabic Institute for Studies", es: "Arabic Institute for Studies", fr: "Arabic Institute for Studies", tr: "Arabic Institute for Studies", ko: "Arabic Institute for Studies", ja: "Arabic Institute for Studies", id: "Arabic Institute for Studies" },
+      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
       location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
-      degree: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学 Mini Master 学位", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
+      degree: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学迷你硕士学位", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
       description: {
         en: "Advanced professional qualification in Arabic language pedagogy.",
         ar: "مؤهل مهني متقدم في تدريس اللغة العربية.",
@@ -1007,76 +1006,98 @@ const CV_DATA = {
       }
     },
     {
-      id: "edu5", year: "2017",
-      institution: { en: "New York (Online)", ar: "نيويورك (عن بُعد)", zh: "New York (Online)", es: "New York (Online)", fr: "New York (Online)", tr: "New York (Online)", ko: "New York (Online)", ja: "New York (Online)", id: "New York (Online)" },
-      location: { en: "United States", ar: "الولايات المتحدة", zh: "美国", es: "Estados Unidos", fr: "États-Unis", tr: "Amerika Birleşik Devletleri", ko: "미국", ja: "アメリカ合衆国", id: "Amerika Serikat" },
-      degree: { en: "MBA, Business Administration", ar: "MBA في إدارة الأعمال", zh: "工商管理 MBA", es: "MBA en Administración de Empresas", fr: "MBA en Administration des Affaires", tr: "İşletme Yönetimi MBA", ko: "MBA (경영학)", ja: "経営管理 MBA", id: "MBA Administrasi Bisnis" },
-      description: { en: "", ar: "", zh: "", es: "", fr: "", tr: "", ko: "", ja: "", id: "" }
-    },
-    {
-      id: "edu4", year: "2017",
-      institution: { en: "Cambridge Training College", ar: "كلية كامبريدج للتدريب", zh: "Cambridge Training College", es: "Cambridge Training College", fr: "Cambridge Training College", tr: "Cambridge Training College", ko: "Cambridge Training College", ja: "Cambridge Training College", id: "Cambridge Training College" },
-      location: { en: "United Kingdom", ar: "المملكة المتحدة", zh: "英国", es: "Reino Unido", fr: "Royaume-Uni", tr: "Birleşik Krallık", ko: "영국", ja: "イギリス", id: "Britania Raya" },
-      degree: { en: "Advanced Training Diploma in Business Administration", ar: "دبلومة متقدمة في إدارة الأعمال", zh: "工商管理高级培训文凭", es: "Diplomado Avanzado en Administración de Empresas", fr: "Diplôme Avancé en Administration des Affaires", tr: "İşletme Yönetiminde İleri Eğitim Diploması", ko: "경영학 고급 연수 디플로마", ja: "経営管理上級研修ディプロマ", id: "Diploma Pelatihan Lanjutan Administrasi Bisnis" },
-      description: { en: "", ar: "", zh: "", es: "", fr: "", tr: "", ko: "", ja: "", id: "" }
-    },
-    {
       id: "edu1", year: "2013",
-      institution: { en: "Beni Suef University", ar: "جامعة بني سويف", zh: "Beni Suef University", es: "Beni Suef University", fr: "Beni Suef University", tr: "Beni Suef University", ko: "Beni Suef University", ja: "Beni Suef University", id: "Beni Suef University" },
+      institution: { en: "Beni Suef University", ar: "جامعة بني سويف", zh: "贝尼苏韦夫大学", es: "Universidad de Beni Suef", fr: "Université de Beni Suef", tr: "Beni Suef Üniversitesi", ko: "베니수에프 대학교", ja: "ベニスエフ大学", id: "Universitas Beni Suef" },
       location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
-      degree: { en: "Bachelor of Industrial Education", ar: "بكالوريوس التعليم الصناعي", zh: "工业教育学学士学位", es: "Licenciatura en Educación Industrial", fr: "Licence en Éducation Industrielle", tr: "Endüstriyel Eğitim Lisans Derecesi", ko: "산업교육학 학사", ja: "産業教育学 学士", id: "Sarjana Pendidikan Industri" },
+      degree: { en: "Bachelor of Science and Education", ar: "بكالوريوس العلوم والتربية", zh: "教育学与理学学士学位", es: "Licenciatura en Ciencias y Educación", fr: "Licence en Sciences et Éducation", tr: "Fen ve Eğitim Bilimleri Lisansı", ko: "교육학 및 이학 학사", ja: "教育学・理学学士", id: "Sarjana Sains dan Pendidikan" },
       description: { en: "", ar: "", zh: "", es: "", fr: "", tr: "", ko: "", ja: "", id: "" }
     }
   ],
 
   // =======================================================================
-  // Certifications — same underlying qualifications as Education,
-  // presented as highlight cards. Institution names kept official/plain.
+  // Certifications — professional development & training credentials.
   // =======================================================================
   certifications: [
     {
-      id: "cert1", year: "2021",
-      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "Arabic Institute for Studies", es: "Arabic Institute for Studies", fr: "Arabic Institute for Studies", tr: "Arabic Institute for Studies", ko: "Arabic Institute for Studies", ja: "Arabic Institute for Studies", id: "Arabic Institute for Studies" },
-      name: { en: "Diploma in Arabic Language for Non-Native Speakers", ar: "دبلومة تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学文凭", es: "Diplomado en Lengua Árabe para No Nativos", fr: "Diplôme d'Arabe pour Locuteurs Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Dili Diploması", ko: "비원어민을 위한 아랍어 디플로마", ja: "非母語話者向けアラビア語ディプロマ", id: "Diploma Bahasa Arab untuk Penutur Non-Native" },
+      id: "cert1", year: "2017",
+      institution: { en: "IBS Training Academy", ar: "أكاديمية IBS للتدريب", zh: "IBS培训学院", es: "Academia de Formación IBS", fr: "Académie de Formation IBS", tr: "IBS Eğitim Akademisi", ko: "IBS 교육 아카데미", ja: "IBS研修アカデミー", id: "Akademi Pelatihan IBS" },
+      location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
+      name: { en: "Mini MBA", ar: "ماجستير إدارة أعمال مصغّر (Mini MBA)", zh: "迷你工商管理硕士（Mini MBA）", es: "Mini MBA", fr: "Mini MBA", tr: "Mini MBA", ko: "미니 MBA", ja: "ミニMBA", id: "Mini MBA" },
+      category: { en: "Business Administration", ar: "إدارة الأعمال", zh: "工商管理", es: "Administración de Empresas", fr: "Administration des Affaires", tr: "İşletme Yönetimi", ko: "경영학", ja: "経営管理", id: "Administrasi Bisnis" },
       description: {
-        en: "Specialized training in teaching methodology for non-native Arabic learners.",
-        ar: "تدريب متخصص في منهجية تدريس العربية للمتعلمين غير الناطقين بها.",
-        zh: "针对非母语阿拉伯语学习者教学法的专业培训。",
-        es: "Formación especializada en metodología de enseñanza para estudiantes de árabe no nativos.",
-        fr: "Formation spécialisée en méthodologie d'enseignement pour apprenants non natifs de l'arabe.",
-        tr: "Ana dili Arapça olmayan öğrenciler için öğretim metodolojisinde uzmanlaşmış eğitim.",
-        ko: "비원어민 아랍어 학습자를 위한 교수법 전문 교육.",
-        ja: "非母語話者のアラビア語学習者向け指導法に特化した専門教育。",
-        id: "Pelatihan khusus dalam metodologi pengajaran untuk pelajar bahasa Arab non-native."
+        en: "Professional qualification covering essential business administration concepts, management principles, and organizational practices.",
+        ar: "مؤهل مهني يغطي المفاهيم الأساسية في إدارة الأعمال ومبادئ الإدارة والممارسات التنظيمية.",
+        zh: "涵盖工商管理核心概念、管理原则与组织实务的专业资格认证。",
+        es: "Cualificación profesional que abarca los conceptos esenciales de administración de empresas, principios de gestión y prácticas organizacionales.",
+        fr: "Qualification professionnelle couvrant les concepts fondamentaux d'administration des affaires, les principes de gestion et les pratiques organisationnelles.",
+        tr: "Temel işletme yönetimi kavramlarını, yönetim ilkelerini ve organizasyonel uygulamaları kapsayan mesleki yeterlilik.",
+        ko: "경영학 핵심 개념, 관리 원칙 및 조직 운영 실무를 다루는 전문 자격.",
+        ja: "経営管理の基本概念、マネジメント原則および組織運営の実務を網羅する専門資格。",
+        id: "Kualifikasi profesional yang mencakup konsep dasar administrasi bisnis, prinsip manajemen, dan praktik organisasi."
       }
     },
     {
-      id: "cert2", year: "2021",
-      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "Arabic Institute for Studies", es: "Arabic Institute for Studies", fr: "Arabic Institute for Studies", tr: "Arabic Institute for Studies", ko: "Arabic Institute for Studies", ja: "Arabic Institute for Studies", id: "Arabic Institute for Studies" },
-      name: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学 Mini Master 学位", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
+      id: "cert4", year: "2017",
+      institution: { en: "American Institute of Professional Studies (A.I.P.S.)", ar: "المعهد الأمريكي للدراسات المهنية", zh: "美国职业研究学院（A.I.P.S.）", es: "Instituto Americano de Estudios Profesionales (A.I.P.S.)", fr: "Institut Américain d’Études Professionnelles (A.I.P.S.)", tr: "Amerikan Mesleki Araştırmalar Enstitüsü (A.I.P.S.)", ko: "미국직업연구학원 (A.I.P.S.)", ja: "アメリカ職業研究学院（A.I.P.S.）", id: "Institut Studi Profesional Amerika (A.I.P.S.)" },
+      location: { en: "United States", ar: "الولايات المتحدة", zh: "美国", es: "Estados Unidos", fr: "États-Unis", tr: "Amerika Birleşik Devletleri", ko: "미국", ja: "アメリカ合衆国", id: "Amerika Serikat" },
+      name: { en: "Mini MBA", ar: "ماجستير إدارة أعمال مصغّر (Mini MBA)", zh: "迷你工商管理硕士（Mini MBA）", es: "Mini MBA", fr: "Mini MBA", tr: "Mini MBA", ko: "미니 MBA", ja: "ミニMBA", id: "Mini MBA" },
+      category: { en: "Business Administration", ar: "إدارة الأعمال", zh: "工商管理", es: "Administración de Empresas", fr: "Administration des Affaires", tr: "İşletme Yönetimi", ko: "경영학", ja: "経営管理", id: "Administrasi Bisnis" },
       description: {
-        en: "Advanced professional qualification in Arabic language pedagogy.",
-        ar: "مؤهل مهني متقدم في تدريس اللغة العربية.",
-        zh: "阿拉伯语教学法方面的高级专业资格。",
-        es: "Cualificación profesional avanzada en pedagogía de la lengua árabe.",
-        fr: "Qualification professionnelle avancée en pédagogie de la langue arabe.",
-        tr: "Arapça dil pedagojisinde ileri düzey mesleki yeterlilik.",
-        ko: "아랍어 교수법 분야의 고급 전문 자격.",
-        ja: "アラビア語教授法における上級専門資格。",
-        id: "Kualifikasi profesional lanjutan dalam pedagogi bahasa Arab."
+        en: "Professional business administration qualification covering fundamental management concepts and practical organizational skills.",
+        ar: "مؤهل مهني في إدارة الأعمال يغطي أساسيات الإدارة والمهارات التنظيمية التطبيقية.",
+        zh: "涵盖基础管理概念与实用组织技能的工商管理专业资格认证。",
+        es: "Cualificación profesional en administración de empresas que abarca los conceptos fundamentales de gestión y las competencias organizacionales prácticas.",
+        fr: "Qualification professionnelle en administration des affaires couvrant les concepts fondamentaux de gestion et les compétences organisationnelles pratiques.",
+        tr: "Temel yönetim kavramlarını ve uygulamalı organizasyonel becerileri kapsayan işletme yönetimi mesleki yeterliliği.",
+        ko: "기초 경영 개념과 실무 조직 기술을 다루는 경영학 전문 자격.",
+        ja: "基本的な経営概念と実践的な組織スキルを網羅する経営管理の専門資格。",
+        id: "Kualifikasi profesional administrasi bisnis yang mencakup konsep dasar manajemen dan keterampilan organisasi praktis."
+      }
+    },
+    {
+      id: "cert2", year: "2017",
+      institution: { en: "Cambridge Training College", ar: "كلية كامبريدج للتدريب", zh: "剑桥培训学院", es: "Escuela de Formación de Cambridge", fr: "Collège de Formation de Cambridge", tr: "Cambridge Eğitim Koleji", ko: "케임브리지 교육대학", ja: "ケンブリッジ研修カレッジ", id: "Kolese Pelatihan Cambridge" },
+      location: { en: "United Kingdom", ar: "المملكة المتحدة", zh: "英国", es: "Reino Unido", fr: "Royaume-Uni", tr: "Birleşik Krallık", ko: "영국", ja: "イギリス", id: "Britania Raya" },
+      name: { en: "Advanced Training Diploma in Business Administration", ar: "دبلومة متقدمة في إدارة الأعمال", zh: "工商管理高级培训文凭", es: "Diplomado Avanzado en Administración de Empresas", fr: "Diplôme Avancé en Administration des Affaires", tr: "İşletme Yönetiminde İleri Eğitim Diploması", ko: "경영학 고급 연수 디플로마", ja: "経営管理上級研修ディプロマ", id: "Diploma Pelatihan Lanjutan Administrasi Bisnis" },
+      description: {
+        en: "Advanced professional training focused on business administration concepts and practical management skills.",
+        ar: "تدريب مهني متقدم يركّز على مفاهيم إدارة الأعمال والمهارات الإدارية التطبيقية.",
+        zh: "专注于工商管理概念和实用管理技能的高级专业培训。",
+        es: "Formación profesional avanzada centrada en los conceptos de administración de empresas y habilidades de gestión práctica.",
+        fr: "Formation professionnelle avancée axée sur les concepts d'administration des affaires et les compétences managériales pratiques.",
+        tr: "İşletme yönetimi kavramlarına ve uygulamalı yönetim becerilerine odaklanan ileri düzey mesleki eğitim.",
+        ko: "경영학 개념과 실무 관리 기술에 초점을 맞춘 고급 전문 교육.",
+        ja: "経営管理の概念と実践的なマネジメントスキルに焦点を当てた上級専門研修。",
+        id: "Pelatihan profesional lanjutan yang berfokus pada konsep administrasi bisnis dan keterampilan manajemen praktis."
       }
     },
     {
       id: "cert3", year: "2017",
-      institution: { en: "New York (Online)", ar: "نيويورك (عن بُعد)", zh: "New York (Online)", es: "New York (Online)", fr: "New York (Online)", tr: "New York (Online)", ko: "New York (Online)", ja: "New York (Online)", id: "New York (Online)" },
-      name: { en: "MBA, Business Administration", ar: "MBA في إدارة الأعمال", zh: "工商管理 MBA", es: "MBA en Administración de Empresas", fr: "MBA en Administration des Affaires", tr: "İşletme Yönetimi MBA", ko: "MBA (경영학)", ja: "経営管理 MBA", id: "MBA Administrasi Bisnis" },
-      description: { en: "", ar: "", zh: "", es: "", fr: "", tr: "", ko: "", ja: "", id: "" }
-    },
-    {
-      id: "cert4", year: "2017",
-      institution: { en: "Cambridge Training College, UK", ar: "كلية كامبريدج للتدريب، المملكة المتحدة", zh: "Cambridge Training College, UK", es: "Cambridge Training College, UK", fr: "Cambridge Training College, UK", tr: "Cambridge Training College, UK", ko: "Cambridge Training College, UK", ja: "Cambridge Training College, UK", id: "Cambridge Training College, UK" },
-      name: { en: "Advanced Training Diploma in Business Administration", ar: "دبلومة متقدمة في إدارة الأعمال", zh: "工商管理高级培训文凭", es: "Diplomado Avanzado en Administración de Empresas", fr: "Diplôme Avancé en Administration des Affaires", tr: "İşletme Yönetiminde İleri Eğitim Diploması", ko: "경영학 고급 연수 디플로마", ja: "経営管理上級研修ディプロマ", id: "Diploma Pelatihan Lanjutan Administrasi Bisnis" },
-      description: { en: "", ar: "", zh: "", es: "", fr: "", tr: "", ko: "", ja: "", id: "" }
+      institution: { en: "IBS Training Academy", ar: "أكاديمية IBS للتدريب", zh: "IBS培训学院", es: "Academia de Formación IBS", fr: "Académie de Formation IBS", tr: "IBS Eğitim Akademisi", ko: "IBS 교육 아카데미", ja: "IBS研修アカデミー", id: "Akademi Pelatihan IBS" },
+      location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
+      name: { en: "Management & Business Skills Training", ar: "التدريب على مهارات الإدارة والأعمال", zh: "管理与商务技能培训", es: "Formación en Gestión y Habilidades Empresariales", fr: "Formation en Gestion et Compétences Professionnelles", tr: "Yönetim ve İş Becerileri Eğitimi", ko: "경영 및 비즈니스 실무 교육", ja: "経営・ビジネススキル研修", id: "Pelatihan Manajemen dan Keterampilan Bisnis" },
+      description: {
+        en: "A series of professional development courses covering strategic planning, project management, human resources, marketing, sales, and financial management fundamentals.",
+        ar: "سلسلة من دورات التطوير المهني تشمل التخطيط الاستراتيجي وإدارة المشاريع والموارد البشرية والتسويق والمبيعات وأساسيات الإدارة المالية.",
+        zh: "一系列职业发展课程，涵盖战略规划、项目管理、人力资源、市场营销、销售及财务管理基础。",
+        es: "Una serie de cursos de desarrollo profesional que abarcan planificación estratégica, gestión de proyectos, recursos humanos, marketing, ventas y fundamentos de gestión financiera.",
+        fr: "Une série de formations en développement professionnel couvrant la planification stratégique, la gestion de projet, les ressources humaines, le marketing, les ventes et les fondamentaux de la gestion financière.",
+        tr: "Stratejik planlama, proje yönetimi, insan kaynakları, pazarlama, satış ve finansal yönetim temellerini kapsayan bir dizi mesleki gelişim kursu.",
+        ko: "전략 기획, 프로젝트 관리, 인사 관리, 마케팅, 영업 및 재무 관리 기초를 다루는 일련의 전문성 개발 과정.",
+        ja: "戦略立案、プロジェクト管理、人事、マーケティング、営業、財務管理の基礎を網羅する一連の専門能力開発コース。",
+        id: "Serangkaian kursus pengembangan profesional yang mencakup perencanaan strategis, manajemen proyek, sumber daya manusia, pemasaran, penjualan, dan dasar-dasar manajemen keuangan."
+      },
+      courses: {
+        en: ["Strategic Planning", "Project Management", "Human Resources Management", "Marketing & Sales Management", "Financial Management"],
+        ar: ["التخطيط الاستراتيجي", "إدارة المشاريع", "إدارة الموارد البشرية", "إدارة التسويق والمبيعات", "الإدارة المالية"],
+        zh: ["战略规划", "项目管理", "人力资源管理", "市场营销与销售管理", "财务管理"],
+        es: ["Planificación Estratégica", "Gestión de Proyectos", "Gestión de Recursos Humanos", "Gestión de Marketing y Ventas", "Gestión Financiera"],
+        fr: ["Planification Stratégique", "Gestion de Projet", "Gestion des Ressources Humaines", "Marketing et Gestion des Ventes", "Gestion Financière"],
+        tr: ["Stratejik Planlama", "Proje Yönetimi", "İnsan Kaynakları Yönetimi", "Pazarlama ve Satış Yönetimi", "Finansal Yönetim"],
+        ko: ["전략 기획", "프로젝트 관리", "인사 관리", "마케팅 및 영업 관리", "재무 관리"],
+        ja: ["戦略立案", "プロジェクト管理", "人事管理", "マーケティング・営業管理", "財務管理"],
+        id: ["Perencanaan Strategis", "Manajemen Proyek", "Manajemen Sumber Daya Manusia", "Manajemen Pemasaran dan Penjualan", "Manajemen Keuangan"]
+      }
     }
   ],
 

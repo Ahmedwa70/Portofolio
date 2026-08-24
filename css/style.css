@@ -819,6 +819,9 @@ html[lang="ar"] .brand{
 .cert-name{ font-size: var(--fs-body); font-weight: 600; line-height: var(--lh-heading); color: var(--text); }
 .cert-meta{ font-family: var(--font-label); font-size: var(--fs-label); letter-spacing: var(--ls-meta); color: var(--text-faint); }
 .cert-desc{ font-size: var(--fs-body); color: var(--text-muted); line-height: var(--lh-body); }
+.cert-courses{ margin: 6px 0 0; padding: 0 0 0 1.2em; font-size: var(--fs-body); color: var(--text-muted); line-height: var(--lh-body); }
+html[dir="rtl"] .cert-courses{ padding: 0 1.2em 0 0; }
+.cert-courses li{ margin-bottom: 2px; }
 
 /* ---- Contact ---- */
 .contact-grid{ display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; }
@@ -937,7 +940,14 @@ html[lang="ar"] .contact-desc{
    Responsive
    ========================================================================= */
 @media (max-width: 980px){
-  .hero-inner{ grid-template-columns: 1fr; text-align: center; gap: 40px; }
+  /* .scroll-hint is position:absolute (bottom: 28px), so nothing in the flow
+     reserves room for it. On desktop the hero is taller than its content and
+     the slack hides that; stacked on a phone the content fills and overruns
+     100svh, leaving only .hero-inner's 60px bottom padding as clearance while
+     the hint needs 28px + its own ~48px = 76px — so the CTA sat on top of it.
+     Reserve that 76px plus a 28px gap here; the hint keeps its position and
+     appearance, it simply stops being overlapped. */
+  .hero-inner{ grid-template-columns: 1fr; text-align: center; gap: 40px; padding-bottom: 104px; }
   .hero-content{ order: 2; }
   .hero-portrait{ order: 1; }
   .hero-actions{ justify-content: center; }

@@ -8,7 +8,7 @@
     "description": "Offline-first multilingual academic portfolio for an Arabic language educator. Nine complete languages, right-to-left and left-to-right, no frameworks and no runtime network dependency.",
     "version": "1.0.0",
     "created": "2026-01-01",
-    "updated": "2026-08-23",
+    "updated": "2026-08-24",
     "status": "Published"
   },
   "owner": {
@@ -174,10 +174,10 @@
   },
   "integrity": {
     "algorithm": "sha256",
-    "generated": "2026-08-23",
+    "generated": "2026-08-24",
     "fileCount": 25,
-    "totalBytes": 802435,
-    "combined": "2f2525b540fd93204a21df298feb4da4c452a1a9143ef3bf942b12ef96a4ab08",
+    "totalBytes": 807798,
+    "combined": "de2c5463f9622a016751e4a66d00caf0af31b9be45c68073f5266c54839fd8b5",
     "combinedNote": "sha256 over 'path\\0digest\\n' for every file, in the order listed.",
     "groups": {
       "markup": [
@@ -225,18 +225,18 @@
         "group": "markup"
       },
       "css/style.css": {
-        "sha256": "7208b3a32e833308142db82262ddbe1c937f029a4fd2725212095d0679bb0b85",
-        "bytes": 52798,
+        "sha256": "43bd479b9a351dc5c39e5ebe3da3bbf235eb9f6c255f40d7fce4f99bf2fd572c",
+        "bytes": 53578,
         "group": "styles"
       },
       "js/app.js": {
-        "sha256": "a3e796611d6a4673003fe05542eeee23a13a87637a97c74441ec790cf7bfc872",
-        "bytes": 48331,
+        "sha256": "3c96fc385ca742e1d952607699d53dc7855a432272f8094111d2971963a0e1f7",
+        "bytes": 48901,
         "group": "scripts"
       },
       "js/data.js": {
-        "sha256": "55bd73de012adb23c7c0c104cce18d3a880c0967b47d392c174e55efdf22017e",
-        "bytes": 112173,
+        "sha256": "e12c9d59dd82cc725a92eed3481f0552e83d7c8fc29cca2c204345a01dd3c01a",
+        "bytes": 116185,
         "group": "scripts"
       },
       "js/translations.js": {
@@ -325,8 +325,8 @@
         "group": "metadata"
       },
       "ARCHITECTURE.md": {
-        "sha256": "98fb0971a623fe4264b5b2ebc67ffbd8e8680d80dc57a6dc0b7159b0d7a93061",
-        "bytes": 7724,
+        "sha256": "90cfb4239b3b4c8b905515a324190576d1c877837240d87fede578e6858e8b18",
+        "bytes": 7725,
         "group": "metadata"
       },
       "ASSET_LICENSES.md": {
